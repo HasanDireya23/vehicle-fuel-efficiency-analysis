@@ -1,31 +1,40 @@
-# HVAC Data Analysis Project
+# Vehicle Fuel Efficiency Analysis
 
-This project demonstrates how to analyze HVAC system operational data using Python.
+This project analyzes vehicle performance data to study the relationship between:
+- Speed  
+- Engine RPM  
+- Fuel consumption  
 
-## Project Objectives
-- Analyze power consumption behavior
-- Study relationship between outdoor temperature and system load
-- Estimate cooling load using airflow data
+The goal is to understand how driving conditions affect fuel efficiency and to identify optimal operating ranges.
 
-## Files
-- hvac_data.csv: HVAC system dataset
-- index.py: Main analysis script
-- hvac_power_time.png: Power vs Time plot
+---
 
-## Key Features
-- Data cleaning and preprocessing
-- Cooling load calculation: Q = 1.08 × CFM × ΔT
-- Correlation analysis between temperature and power
-- Visualization using Matplotlib
+## 📊 Key Features
+- Calculates fuel consumption trends  
+- Analyzes correlation between speed, RPM, and fuel usage  
+- Identifies optimal driving conditions for better efficiency  
+- Visualizes data using charts
 
-## Tools
-- Python
-- Pandas
-- Matplotlib
+---
 
-## How to run
-Install dependencies:
-pip install -r requirements.txt
+## 📁 Project Files
+- `vehicle_data.csv` : Sample vehicle dataset  
+- `index.py` : Python script for data analysis  
+- Generated charts:
+  - `fuel_time.png`
+  - `speed_vs_fuel.png`
+  - `rpm_vs_fuel.png`
 
-Run:
-python index.py
+---
+
+## 🛠 Tools & Libraries
+- Python  
+- Pandas  
+- Matplotlib  
+
+---
+
+## ▶️ How to Run
+1. Install required libraries:
+```bash
+pip install pandas matplotlib
